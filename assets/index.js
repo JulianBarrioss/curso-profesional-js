@@ -1,4 +1,4 @@
-import mediaPlayer from './mediaPlayer'
+import mediaPlayer from './mediaPlayer.js'
 import autoPlay from './plugins/autoPlay.js'
 const video = document.querySelector("video");
 const button = document.querySelector("button");
