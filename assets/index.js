@@ -1,5 +1,5 @@
-import mediaPlayer from './mediaPlayer.js'
-import autoPlay from './plugins/autoPlay.js'
+import mediaPlayer from './mediaPlayer.js';
+import autoPlay from './plugins/autoPlay.js';
 const video = document.querySelector("video");
 const button = document.querySelector("button");
 const player = new mediaPlayer({ el: video, puglins: [new autoPlay()] });
